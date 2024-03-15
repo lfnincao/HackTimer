@@ -1,6 +1,6 @@
 # HackTimer
 Avoid timers throttling by browser when tab is inactive
-
+https://www.jsdelivr.com/
 # Usage:
 Place script reference to **HackTimer.js** (or HackTimer.min.js) before any other JavaScript.
 This includes library's such as jQuery as otherwise timed events such as fadeOut and fadeIn will break.
