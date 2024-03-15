@@ -13,6 +13,7 @@ onmessage = function (event) {\
 	}\
 	switch (name) {\
 		case 'setInterval':\
+					      console.log('test1');
 			fakeIdToId[fakeId] = setInterval(function () {\
 				postMessage({fakeId: fakeId});\
 			}, time);\
